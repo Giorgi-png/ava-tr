@@ -1,0 +1,192 @@
+@@ -8,33 +8,34 @@
+
+            <!-- CAFE -->
+            <item id="cfCak" label="#cakeTitle" name="Cake"
+                  icon="CakeIcon@location" gold="0" silver="150" saleSilver="0">
+                  icon="CakeIcon@location" gold="0" silver="0
+                                                            " saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="15"/>
+                </modifyers>
+            </item>
+            <item id="cfCof" label="#coffeeTitle" name="Coffee"
+                  icon="CoffeeIcon@location" gold="1" silver="0" saleSilver="0">
+                  icon="CoffeeIcon@location" gold="0" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="30"/>
+                </modifyers>
+            </item>
+            <item id="cfPiz" label="#pizzaTitle" name="Pizza"
+                  icon="PizzaIcon@location" gold="3" silver="0" saleSilver="0">
+                  icon="PizzaIcon@location" gold="0" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="100"/>
+                </modifyers>
+            </item>
+
+            <!-- CLUB -->
+            <item id="clMoc" label="#mochitoTitle" name="Mochito"
+                  icon="MochitoIcon@location" gold="0" silver="150" saleSilver="0">
+                  icon="MochitoIcon@location" gold="0" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="15"/>
+                </modifyers>
+            </item>
+            <item id="clBlr" label="#blackRussianTitle" name="BlackRussian"
+                  icon="BlackRussianIcon@location" gold="1" silver="0" saleSilver="0">
+                  icon="BlackRussianIcon@location" gold="0" silver="0" saleSilver="0">
+                <modifyers>
+                    <modifyer name="energy" effect="30"/>
+                </modifyers>
+@@ -49,11 +50,11 @@
+
+        <category id="cake" label="" logCategory2="cake">
+            <item id="ckStrwb" label="#smallStrawberryCakeTitle" name="StrawberryCake"
+                  icon="StrawberryCakeIcon" gold="0" silver="150" saleSilver="0"/>
+                  icon="StrawberryCakeIcon" gold="0" silver="0" saleSilver="0"/>
+            <item id="ckBlckb" label="#mediumBlackberryCakeTitle" name="BlackberryCake"
+                  icon="BlackberryCakeIcon" gold="0" silver="350" saleSilver="0"/>
+            <item id="ckOrng" label="#bigOrangeCakeTitle" name="OrangeCake"
+                  icon="OrangeCakeIcon" gold="1" silver="0" saleSilver="0"/>
+                  icon="OrangeCakeIcon" gold="0" silver="0" saleSilver="0"/>
+        </category>
+
+        <category id="holy" logCategory2="paint" visible="false">
+@@ -65,13 +66,13 @@
+        <category id="art" label="#artifactCategory" visible="false" logCategory2="work">
+
+            <!-- GARDEN -->
+            <item id="gdBug" label="#bugTitle" name="Bug" saleSilver="30" energy="4"
+            <item id="gdBug" label="#bugTitle" name="Bug" saleSilver="1000" energy="0"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gdBtf" label="#butterflyTitle" name="Butterfly" saleSilver="1000" energy="0"
+            <item id="gdBtf" label="#butterflyTitle" name="Butterfly" saleSilver="1000" energy="0"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gdFlw" label="#flowerTitle" name="Flower" saleSilver="30" energy="4"
+            <item id="gdFlw" label="#flowerTitle" name="Flower" saleSilver="1000" energy="0"
+                saleGold="1" goldProbability="0.015"/>
+            <item id="gdIns" label="#insectsTitle" name="Insects" saleSilver="30" energy="4"
+            <item id="gdIns" label="#insectsTitle" name="Insects" saleSilver="1000" energy="0"
+                saleGold="1" goldProbability="0.015"/>
+
+            <!-- WORK -->
+@@ -225,7 +226,7 @@
+                    <item id="craftedEnergyDrink" label="#craftedEnergyDrink" name="EnergyDrink@location"
+                          icon="EnergyDrinkIcon@location">
+                        <modifyers>
+                            <modifyer name="energy" effect="200"/>
+                            <modifyer name="energy" effect="10000"/>
+                        </modifyers>
+                    </item>
+                    <item id="craftedPancake" label="#craftedPancake" name="Pancake@location"
+@@ -245,7 +246,7 @@
+                    </item>
+                    <item id="giftWedding2" label="#giftWedding2Label" name="EnergyDrink@location"
+                          icon="EnergyDrinkIcon@location"
+                          canGift="1" gold="10" silver="0">
+                          canGift="1" gold="0" silver="0">
+                        <modifyers>
+                            <modifyer name="gold" effect="5"/>
+                        </modifyers>
+@@ -255,21 +256,21 @@
+                <category id="vipTickets" label="#vipTicketsLabel" typeClass="active" logCategory2="vipTickets">
+                    <item id="vipTicket5" label="#vipTicket5Title" name="vipTicket5@location"
+                          icon="VipTicket5Icon@location"
+                          description="#vipTicket5Description" gold="50" priority="1" canTrade="1" canGift="1">
+                          description="#vipTicket5Description" gold="0" priority="1" canTrade="1" canGift="1">
+                        <modifyers>
+                            <modifyer name="vip" effect="5"/>
+                        </modifyers>
+                    </item>
+                    <item id="vipTicket10" label="#vipTicket10Title" name="vipTicket10@location"
+                          icon="VipTicket10Icon@location"
+                          description="#vipTicket5Description" gold="75" priority="2" canTrade="1" canGift="1">
+                          description="#vipTicket5Description" gold="0" priority="2" canTrade="1" canGift="1">
+                        <modifyers>
+                            <modifyer name="vip" effect="10"/>
+                        </modifyers>
+                    </item>
+                    <item id="vipTicket20" label="#vipTicket20Title" name="vipTicket20@location"
+                          icon="VipTicket20Icon@location"
+                          description="#vipTicket20Description" gold="125" priority="3" canTrade="1" canGift="1">
+                          description="#vipTicket20Description" gold="0" priority="3" canTrade="1" canGift="1">
+                        <modifyers>
+                            <modifyer name="vip" effect="20"/>
+                        </modifyers>
+@@ -309,43 +310,43 @@
+                          approveOpenLabel="newYearGiftLabel" approveOpenDescription="newYearOpenGiftDescriptionLabel">
+                    <item id="nyGft1" label="#newYearGift1Label" icon="NewYearGift1Icon@location"
+                          name="NewYearGift1@location"
+                          gold="49" silver="0" priority="1" canGift="1"/>
+                          gold="0" silver="0" priority="1" canGift="1"/>
+                    <item id="nyGft2" label="#newYearGift2Label" icon="NewYearGift2Icon@location"
+                          name="NewYearGift2@location"
+                          gold="99" silver="0" priority="2" canGift="1"/>
+                          gold="0" silver="0" priority="2" canGift="1"/>
+                    <item id="nyGft3" label="#newYearGift3Label" icon="NewYearGift3Icon@location"
+                          name="NewYearGift3@location"
+                          gold="199" vipOnly="1" silver="0" priority="3" canGift="1"/>
+                          gold="0" vipOnly="1" silver="0" priority="3" canGift="1"/>
+
+                    <!-- 2016 -->
+                    <item id="ny16Gft1" label="#newYear16Gift1Label" icon="PresentNY2016S@location"
+                          gold="50" silver="0" priority="4" canGift="1" canBuy="0"/>
+                          gold="0" silver="0" priority="4" canGift="1" canBuy="0"/>
+                    <item id="ny16Gft2" label="#newYear16Gift2Label" icon="PresentNY2016M@location"
+                          gold="100" silver="0" priority="5" canGift="1" canBuy="0"/>
+                          gold="0" silver="0" priority="5" canGift="1" canBuy="0"/>
+                    <item id="ny16Gft3" label="#newYear16Gift3Label" icon="PresentNY2016L@location"
+                          gold="200" silver="0" priority="6" canGift="1" canBuy="0"/>
+                          gold="0" silver="0" priority="6" canGift="1" canBuy="0"/>
+
+                    <!-- NEW YEAR 2019 -->
+                    <item id="ny19Gft1" label="#newYear16Gift1Label" icon="PresentNY2016S@location"
+                          gold="50" silver="0" priority="7" canGift="1" canBuy="0"/>
+                          gold="0" silver="0" priority="7" canGift="1" canBuy="0"/>
+                    <item id="ny19Gft2" label="#newYear16Gift2Label" icon="PresentNY2016M@location"
+                          gold="100" silver="0" priority="8" canGift="1" canBuy="0"/>
+                          gold="0" silver="0" priority="8" canGift="1" canBuy="0"/>
+                    <item id="ny19Gft3" label="#newYear16Gift3Label" icon="PresentNY2016L@location"
+                          gold="200" silver="0" priority="9" canGift="1" canBuy="0"/>
+                          gold="0" silver="0" priority="9" canGift="1" canBuy="0"/>
+                </category>
+
+                <!-- WEDDING BEACH GIFTS -->
+                <category id="weddingBeachGift" logCategory2="weddingBeachGifts"
+                          approveOpenLabel="weddingBeachGiftLabel"
+                          approveOpenDescription="newYearOpenGiftDescriptionLabel">
+                    <item id="weddingBeachGift1" name="weddingBeachGift1" label="#weddingBeachGift1Label"
+                          icon="PresentWeddingSmall@location" gold="5" priority="1" canGift="1" canBuy="0"
+                          icon="PresentWeddingSmall@location" gold="0" priority="1" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                    <item id="weddingBeachGift2" name="weddingBeachGift2" label="#weddingBeachGift2Label"
+                          icon="PresentWeddingMedium@location" gold="15" priority="2" canGift="1" canBuy="0"
+                          icon="PresentWeddingMedium@location" gold="0" priority="2" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                    <item id="weddingBeachGift3" name="weddingBeachGift3" label="#weddingBeachGift3Label"
+                          icon="PresentWeddingBig@location" gold="50" priority="3" canGift="1" canBuy="0"
+                          icon="PresentWeddingBig@location" gold="0" priority="3" canGift="1" canBuy="0"
+                          canTrade="1"/>
+                </category>
+
+@@ -376,11 +377,11 @@
+
+                <category id="skiResortGifts" logCategory2="skiResortGifts">
+                    <item id="srGft1" label="#skiResortGift1Label" icon="skiResortSmallGiftIcon@location"
+                          gold="50" silver="0" priority="10" canGift="1" canBuy="1" canTrade="1"/>
+                          gold="0" silver="0" priority="10" canGift="1" canBuy="1" canTrade="1"/>
+                    <item id="srGft2" label="#skiResortGift2Label" icon="skiResortMediumGiftIcon@location"
+                          gold="100" silver="0" priority="11" canGift="1" canBuy="1" canTrade="1"/>
+                          gold="0" silver="0" priority="11" canGift="1" canBuy="1" canTrade="1"/>
+                    <item id="srGft3" label="#skiResortGift3Label" icon="skiResortLargeGiftIcon@location"
+                          gold="200" silver="0" priority="12" canGift="1" canBuy="1" canTrade="1"/>
+                          gold="0" silver="0" priority="12" canGift="1" canBuy="1" canTrade="1"/>
+                </category>
+
+                <!-- PERSONAL GIFTS -->
+@@ -1276,4 +1277,4 @@
+    <category id="podiumClothesServices" typeClass="game" logCategory1="clothes">
+        <item id="buyPodiumClothes" name="buyPodiumClothes"/>
+    </category>
+</config> 
+</config>
